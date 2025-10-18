@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="card" style="width: 18rem;">
+  <img src="/image/familypic.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Happy Diwali To All</h5>
+    <p class="card-text">Let the spirit of Diwali bring warmth, joy, and endless love into your home. May your life be filled with light, laughter, and lasting happiness this festive season. As diyas shine bright, may your dreams sparkle with new hope and success. Wishing you a Diwali that fills your world with moments of grace and gratitude</p>
+    <a href="#" class="btn btn-primary">Like It</a>
+  </div>
+</div>
+<script>
+  let count = 0;
+  const likeBtn = document.getElementById('like-btn');
+  const likeCount = document.getElementById('like-count');
+
+  likeBtn.addEventListener('click', () => {
+    count++;
+    likeCount.innerText = count;
+  });
+</script>
+</body>
+</html>

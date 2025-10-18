@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(219, 96, 25);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-img-top{
+    width: 200px;
+    height:200px;
+    background-color: blueviolet;
+}
+.card-title{
+    color: brown;
+}
